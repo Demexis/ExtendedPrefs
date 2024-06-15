@@ -21,6 +21,10 @@ To access `PlayerPrefs` extended methods, use the `ExtendedPlayerPrefs` class. F
 Here is an example of how you could set the saved screen resolution at the `Start()` using ExtendedPrefs:
 
 ```cs
+using ExtendedPrefs;
+using JetBrains.Annotations;
+using UnityEngine;
+
 public class ScreenResolutionPreference : MonoBehaviour {
     private const string SCREEN_RESOLUTION_PLAYER_PREF_NAME = "SCREEN_RES_PREF";
     
