@@ -18,6 +18,8 @@ You can download a unity package from [the latest release](../../releases).
 ## Usage
 To access `PlayerPrefs` extended methods, use the `ExtendedPlayerPrefs` class. For `EditorPrefs`, respectively, use `ExtendedEditorPrefs`.
 
+Here is an example of how you could set the saved screen resolution at the `Start()`:
+
 ```cs
 public class ScreenResolutionPreference : MonoBehaviour {
     private const string SCREEN_RESOLUTION_PLAYER_PREF_NAME = "SCREEN_RES_PREF";
