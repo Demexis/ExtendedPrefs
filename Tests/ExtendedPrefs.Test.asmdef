@@ -1,0 +1,19 @@
+{
+    "name": "ExtendedPrefs.Test",
+    "rootNamespace": "",
+    "references": [
+        "GUID:ed096e023c9f38c4db72d234505695ce",
+        "GUID:416bdb220b6143c43a4721903192a1fa"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
