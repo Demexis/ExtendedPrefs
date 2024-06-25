@@ -48,3 +48,6 @@ public class ScreenResolutionPreference : MonoBehaviour {
     }
 }
 ```
+
+## Last Notes
+After a while, I completely abandoned PlayerPrefs, preferring to use regular config files. They are easier to maintain and easier for users to edit. Custom config files have better serialization and wider customization options.
