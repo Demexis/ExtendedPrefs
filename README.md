@@ -3,7 +3,7 @@
 ## Overview
 Extended methods for `PlayerPrefs` and `EditorPrefs` in Unity.
 
-This package uses the original `PlayerPrefs` and `EditorPrefs` methods to __support other types__.
+This small package uses the original `PlayerPrefs` and `EditorPrefs` methods to __support other types__.
 
 **Additional supported types:**
 * `Boolean`
@@ -50,4 +50,4 @@ public class ScreenResolutionPreference : MonoBehaviour {
 ```
 
 ## Last Notes
-After a while, I completely abandoned PlayerPrefs, preferring to use regular config files. They are easier to maintain and easier for users to edit. Custom config files have better serialization and wider customization options.
+After a while, I completely abandoned PlayerPrefs, preferring to use regular config files. They are easier to maintain and easier for users to edit. Custom config files will have better serialization and wider customization options.
